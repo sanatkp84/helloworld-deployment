@@ -7,6 +7,7 @@ WORKDIR /app
 # Copy the app code to the container
 COPY app.py .
 
+#port exposed
 EXPOSE 8000
 
 # Run the app
