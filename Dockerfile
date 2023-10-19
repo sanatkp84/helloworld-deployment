@@ -8,7 +8,7 @@ WORKDIR /app
 COPY app.py .
 
 #port exposed
-EXPOSE 8000
+EXPOSE 8002
 
 # Run the app
 CMD ["python", "app.py"]
